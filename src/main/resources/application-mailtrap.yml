@@ -1,0 +1,12 @@
+spring:
+  mail:
+    host: smtp.mailtrap.io
+    port: 2525
+    username: # TODO: put your email address.
+    password: # TODO: put your email password.
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true

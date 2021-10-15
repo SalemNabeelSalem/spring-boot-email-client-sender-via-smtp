@@ -1,0 +1,9 @@
+server:
+  port: 9409
+
+spring:
+  application:
+    name: email-client-sender
+  profiles:
+    include:
+      - mailtrap
